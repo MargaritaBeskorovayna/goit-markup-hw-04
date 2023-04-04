@@ -95,8 +95,9 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--logo-color);
+margin-right: 76px;
    }
-.header-logo{margin-right: 76px;
+.header-logo{
  
 color:var(--header-logo) ;
 }
@@ -179,6 +180,7 @@ max-width: 264px;
 background-position: center;
     background-repeat: no-repeat;
     max-width: 1440px;
+    margin: 0 auto;
   
 
 
@@ -219,6 +221,7 @@ margin: 0 auto;
 .advantages-icon{
     width: 64px;
     height: 64px;
+    
 }
 .advantages-icons{
     background: #F4F4FD;
@@ -226,7 +229,9 @@ border-radius: 4px;
     display: block;
     width: 264px;
     height: 112px;
-    padding: 24px 100px;
+   display: flex;
+   align-items:center;
+   justify-content: center;
     margin-bottom: 8px;
     
    
@@ -358,7 +363,10 @@ align-items: center;
 justify-content: center;
 }
 .customers-item{
-    padding: 16px 32px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width:168px;
     height: 88px;
     border: 1px solid #8E8F99;
@@ -425,11 +433,11 @@ padding: 12px 24px;
 
 .link-portfolio{
     display:block;
-    width:360px;
+    width: 360px;
 }
 .link-portfolio:hover,
 .link-portfolio:focus{
-    border: 1px solid #F4F4FD;
+    
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
